@@ -6,9 +6,9 @@ public class Welcome {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.print("당신의 이름을 입력하세요 : ");
-        String userName = br.readLine();
+        String memberName = br.readLine();
         System.out.print("연락처를 입력하세요 : ");
-        String userPhoneNum = br.readLine();
+        String memberPhoneNum = br.readLine();
 
         for (int i = 0; i < 47; i++) {
             System.out.print("*");
